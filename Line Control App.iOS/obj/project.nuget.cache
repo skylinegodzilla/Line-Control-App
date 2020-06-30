@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "M87NREtpRO1d7OGJs7JSXnzGExDnBsuVn7RFl7bPUkz4hjtL0edN4FaDGQgRk/7+Dv+k1yVA9KrD5QlJUI4ejQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\benca\\source\\repos\\Line Control App\\Line Control App.iOS\\Line Control App.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\benca\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

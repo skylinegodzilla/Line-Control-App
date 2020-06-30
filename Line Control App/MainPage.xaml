@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Line_Control_App.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <StackLayout
+                Padding="5"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="250"
+
+        >
+            <FlexLayout
+                JustifyContent="Center" 
+                Margin="0" 
+                Padding="10,0"
+            >
+                <StackLayout 
+                    Margin="10,0"
+                >
+
+                    <Label 
+                        Text="Min" 
+                        FontSize="Title"
+                        TextColor="#097100"
+                    />
+                    <Editor 
+                        Text="0"
+                         x:Name="MinEdt"
+                        
+                    />
+                </StackLayout>
+                <StackLayout Margin="10,0">
+                    <Label 
+                        Text="Targit" 
+                        FontSize="Title"
+                        TextColor="#FF8200"
+                    />
+                    <Editor 
+                        Text="0"
+                        x:Name="TargitEdt"
+                    />
+                </StackLayout>
+                <StackLayout Margin="10,0">
+                    <Label 
+                        Text="Max" 
+                        FontSize="Title"
+                        TextColor="#AA2222"
+                    />
+                    <Editor 
+                        Text="0"
+                        x:Name="MaxEdt"
+                    />
+                </StackLayout>
+            </FlexLayout>
+            <Button 
+                Text="Update"
+                Clicked="UpdateMinMax" 
+            />
+        </StackLayout>
+
+        <StackLayout
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="200"
+            >
+            <FlexLayout
+                JustifyContent="Center"
+            >
+                <StackLayout>
+                    <Label Text="New Count Value" />
+                    <Entry 
+                        Placeholder="00"
+                        x:Name="NewCountEdt"
+                    />
+                </StackLayout>
+            </FlexLayout>
+            <Button 
+                Text="New Count"
+                Clicked="NewCount" 
+            />
+        </StackLayout>
+
+        <Label 
+           x:Name="LabelOne" 
+           Text="XX" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" 
+           TextColor="#707070" FontSize="Header"
+            
+        />
+
+        <StackLayout 
+            HorizontalOptions="CenterAndExpand" 
+            BackgroundColor="#E0E7FA"
+        >
+            <FlexLayout 
+                JustifyContent="Center" 
+                Padding="0,0" 
+            >
+                <Button
+                    Text="IN" 
+                    Visual="Default" 
+                    Clicked="Add_Clicked" 
+                    BackgroundColor="#097100" 
+                    TextColor="#FFFFFF" FontSize="40" FontAttributes="Bold"
+                    Margin="10,10,40,10"
+                    WidthRequest="120" HeightRequest="100"
+                    BorderColor="#FFFFFF" BorderWidth="1"
+                />
+
+                <Button 
+                    Text="OUT" 
+                    Visual="Default" 
+                    Clicked="Sub_Clicked" 
+                    TextColor="#FFFFFF" FontSize="40" FontAttributes="Bold"
+                    BackgroundColor="#FF8200" 
+                    Margin="40,10,10,10"
+                    WidthRequest="120" HeightRequest="100" 
+                    BorderColor="#FFFFFF" BorderWidth="1"
+                />
+            </FlexLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

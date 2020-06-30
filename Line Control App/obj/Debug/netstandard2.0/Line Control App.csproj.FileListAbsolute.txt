@@ -1,0 +1,13 @@
+C:\Users\benca\source\repos\Line Control App\Line Control App\bin\Debug\netstandard2.0\Line Control App.deps.json
+C:\Users\benca\source\repos\Line Control App\Line Control App\bin\Debug\netstandard2.0\Line Control App.dll
+C:\Users\benca\source\repos\Line Control App\Line Control App\bin\Debug\netstandard2.0\ref\Line Control App.dll
+C:\Users\benca\source\repos\Line Control App\Line Control App\bin\Debug\netstandard2.0\Line Control App.pdb
+C:\Users\benca\source\repos\Line Control App\Line Control App\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\benca\source\repos\Line Control App\Line Control App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\benca\source\repos\Line Control App\Line Control App\obj\Debug\netstandard2.0\Line Control App.csproj.CoreCompileInputs.cache
+C:\Users\benca\source\repos\Line Control App\Line Control App\obj\Debug\netstandard2.0\Line Control App.AssemblyInfoInputs.cache
+C:\Users\benca\source\repos\Line Control App\Line Control App\obj\Debug\netstandard2.0\Line Control App.AssemblyInfo.cs
+C:\Users\benca\source\repos\Line Control App\Line Control App\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\benca\source\repos\Line Control App\Line Control App\obj\Debug\netstandard2.0\Line Control App.dll
+C:\Users\benca\source\repos\Line Control App\Line Control App\obj\Debug\netstandard2.0\ref\Line Control App.dll
+C:\Users\benca\source\repos\Line Control App\Line Control App\obj\Debug\netstandard2.0\Line Control App.pdb
